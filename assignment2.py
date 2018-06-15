@@ -14,11 +14,27 @@ z=input("enter any number")
 print(x,y,z)
 
 
-#Q4
+# Q4 . print lets's get started on screen
 
-s="Acadview"
-course="python"
-fees=6000
-print("%s %s %d"(s,course,fees))
-print(s =" " + course + " " + str(fees))
+
+# first method
+print("Let's Get Started")
+
+
+# second method
+
+print('let\'s Get Started')
+
+# Q5 . print the following values using placeholder s= "acadview" course="python" fees=5000 "
+
+s = "Acadview"
+course ="Python "
+fees = 5000
+print("%s  %s  %d " %(s,course,fees) )
+
+# Q6 . let's do some exercise  name ="Tony stark" salary=1000000 print('%s''%d')%(_____,_____)
+
+name= "Tony stark"
+salary= 1000000
+print("%s  %d"%(name,salary))
 
