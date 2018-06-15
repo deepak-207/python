@@ -4,7 +4,7 @@ print ("my name is deepak")
 
 #Q2
 
-print("Acad + " view")
+print("Acad" + "view")
 
 # Q3
 
@@ -16,15 +16,9 @@ print(x,y,z)
 
 #Q4
 
-s="acadview"
+s="Acadview"
 course="python"
 fees=6000
-print("%s %s %d(s,course,fees))
+print("%s %s %d"(s,course,fees))
 print(s =" " + course + " " + str(fees))
 
-#Q6
-
-name="tony stark"
-salary=100000
-print(%s, %d) (____,_____)
-print(name %s,salary %d)
