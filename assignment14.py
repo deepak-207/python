@@ -3,7 +3,7 @@
 f=open("assignment14.txt",encoding="utf8")
 content=f.readlines()
 print(content)
-f.close()
+f.close()a
 n=int(input("enter the last line number from where u want to read: "))
 while n>0:
  print(content[-n])
